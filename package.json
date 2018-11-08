@@ -1,0 +1,15 @@
+{
+  "name": "my-oauth2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6",
+    "oauth2-server": "^3.0.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
