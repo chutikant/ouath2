@@ -55,8 +55,7 @@ function tokenHandler() {
         })
         .catch(function(err) {
           // handle error condition
-          console.log('wtf')
-         // res.send( err);
+           res.send(err);
         });
     }
   }
